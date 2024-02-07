@@ -1,0 +1,625 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.plug{
+    display: none;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.contacts {
+    display: flex;
+    background: linear-gradient(270deg, rgba(46, 49, 146, 0.70) 0%, rgba(212, 20, 90, 0.70) 98.16%);
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.contacts-extIcon{
+    width: 20px;
+    height: 20px;
+}
+.contacts-ext {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.contacts-ext p{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    vertical-align: middle; 
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* вторая страничка */
+
+.img{
+    background-image: url(assets/Vector.svg);
+    background-repeat: no-repeat;
+    width: 100.01px;
+    height: 59.97px;
+}
+
+
+.block1{
+    padding-top: 45px;
+    padding-left: 210px;
+    width: 100%;
+    height: 850px;
+}
+.block1 .leftSide{
+    display: flex;
+    height: 650px;
+    flex-direction: column;
+    justify-content: center;
+}
+.leftSide{
+    gap: 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.navigation{
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 42px;
+}
+
+.logoH3{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #737373;
+    vertical-align: middle;
+}
+
+
+.leftSideH3{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 676px;
+    height: 119px;
+}
+
+.leftSideP{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.leftSideBTN{
+    width: 179px;
+    height: 53px;
+    border-radius: 7px;
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    border: none;
+}
+.mainInfoAndLogo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.firstImage{
+    background-image: url(assets/подложка\ 1.png);
+    background-repeat: no-repeat;
+    width: 745px;
+    height: 522px;
+}
+.secondImage{
+    background-image: url(assets/коврф\ 1.png);
+    background-repeat: no-repeat;
+    width: 545px;
+    height: 786px;
+    
+}
+
+/* EVA карточки */
+
+.eva-page{
+    height: 780px;
+}
+
+.eva{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 583px;
+    align-items: center;
+}
+
+.containers{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.first-card{
+    display: flex;
+    flex-direction: column;
+    width: 344px;
+    height: 414px;
+    border-radius: 9px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 0px #B8005F33;
+    overflow: hidden;
+}
+.mask-group{
+    background-image: url(assets/image00004\ 1.png);
+    width: 363px;
+    height: 242px;
+    background-repeat: no-repeat;
+}
+.mask-group2{
+    background-image: url(assets/file\ 1.png);
+    width: 363px;
+    height: 242px;
+    background-repeat: no-repeat;
+}
+.mask-group3{
+    background-image: url(assets/kov1-1-300x225\ 1.png);
+    width: 363px;
+    height: 242px;
+    background-repeat: no-repeat;
+}
+    
+.eva-title{
+    display: flex;
+    gap: 10px;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+.eva-title-logo{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: linear-gradient(180deg, #B90160 0%, #3D5BF5 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.first-card-title{
+    width: 289px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.first-card-paragraph{
+    width: 289px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #767676;
+}
+.first-card-box{
+    width: 344px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+@media screen and (min-width: 426px) and (max-width: 769px) {
+    
+    .number {
+        display: none;
+    }
+    
+    .plug{
+        display: block;
+    }
+    .logoAndInfo{
+        display: none;
+    }
+    .block1{
+        padding-top: 65px;
+        padding-left: 70px;
+        width: 100%;
+        height: 652.59px;
+    }
+    .leftSideH3{
+        width: 414px;
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+    }
+    .leftSideBTN{
+        width: 141px;
+        height: 42px;
+        border-radius: 7px;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 900;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+    }
+    .firstImage{
+        background-image: url(assets/подложка\ 1tablet.svg);
+        background-repeat: no-repeat;
+        width: 525px;
+        height: 368px;
+    }
+    .secondImage{
+        background-image: url(assets/коврф\ 1tablet.svg);
+        background-repeat: no-repeat;
+        width: 368px;
+        height: 473px;
+    }
+    
+    .block1 .leftSide{
+        display: flex;
+        height: 473px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .rightSide{
+        margin-left: -120px;
+    }
+    
+    .eva-title{
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 47px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .eva-title-logo{
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 47px;
+        letter-spacing: 0em;
+        text-align: center;
+        background: linear-gradient(180deg, #B90160 0%, #3D5BF5 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    .first-card{
+        display: flex;
+        flex-direction: column;
+        width: 594px;
+        height: 325px;
+        border-radius: 9px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px 0px #B8005F33;
+        overflow: hidden;
+    }
+    .mask-group{
+        background-repeat: no-repeat;
+        background-image: url(assets/image00004\ 1tablet.png);
+        width: 626.81px;
+        height: 189.98px;
+    }
+    .mask-group2{
+        background-image: url(assets/file\ 1tablet.png);
+        background-repeat: no-repeat;
+        width: 626.81px;
+        height: 189.98px;
+    }
+    .mask-group3{
+        background-image: url(assets/kov1-1-300x225\ 1tablet.png);
+        background-repeat: no-repeat;
+        width: 626.81px;
+        height: 189.98px;
+    }
+    .first-card-title{
+        width: 479px;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;        
+        color: #000000;
+    }
+    .first-card-paragraph{
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 479px;        
+    }
+    .first-card-box{
+        width: 524px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }    
+    
+    .containers{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 70px;
+        overflow: hidden;
+    }
+    .eva{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 1196px;
+        align-items: center;
+    }
+    
+
+}
+
+@media screen and (max-width: 426px) {
+    .contacts-ext img{
+        display: none;
+    }    
+    .contacts-ext{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contacts {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .inst{
+        display: none;
+    }
+    .logoAndInfo{
+        display: none;
+    }
+    .block1{
+        padding-left: 105px;
+        padding-top: 25px;
+        width: 100%;
+        height: 326px;
+    }
+    
+    .block1 .leftSide{
+        display: flex;
+        height: 256px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoH3{
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 900;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .leftSideH3{
+        width: 194px;
+        height: 75px;
+        font-family: Roboto;
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .img{
+        background-image: url(assets/Vectorphone.svg);
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 36px;
+    }
+    .leftSideP{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .leftSideBTN{
+        width: 93px;
+        height: 28px;
+        border-radius: 7px;
+        font-family: Roboto;
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 12px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .firstImage{
+        background-image: url(assets/подложка\ 1phone.png);
+        width: 365px;
+        height: 256px;
+        background-repeat: no-repeat;
+        margin-left: -360px;
+    }
+    .secondImage{
+        display: none;
+    }
+    .mainInfoAndLogo{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        margin: auto;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .eva-title{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .eva-title-logo{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+        background: linear-gradient(180deg, #B90160 0%, #3D5BF5 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    .first-card{
+        display: flex;
+        flex-direction: column;
+        width: 264px;
+        height: 360px;
+        border-radius: 9px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px 0px #B8005F33;
+        overflow: hidden;
+    }
+    .first-card-title{
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 221.79px;
+    }
+    .first-card-paragraph{
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 222px;
+
+    }
+    .first-card-box{
+        width: 264px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }    
+    .mask-group{
+        background-image: url(assets/image00004\ 1phone.png);
+        background-repeat: no-repeat;
+        width: 279px;
+        height: 182.52px;
+    }
+    .mask-group2{
+        background-image: url(assets/file\ 1phone.png);
+        background-repeat: no-repeat;
+        width: 279px;
+        height: 182.52px;
+    }
+    .mask-group3{
+        background-image: url(assets/kov1-1-300x225\ 1phone.png);
+        background-repeat: no-repeat;
+        width: 279px;
+        height: 182.52px;
+    }
+    .containers{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 70px;
+        overflow: hidden;
+    }
+    .eva{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 1262px;
+        align-items: center;
+    }
+}
